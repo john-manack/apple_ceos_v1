@@ -1,0 +1,26 @@
+{
+  "name": "apple_ceos_v1",
+  "version": "1.0.0",
+  "description": "Express App to display a list of Apple CEOs, this is v1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-manack/apple_ceos_v1.git"
+  },
+  "keywords": [],
+  "author": "John Manack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-manack/apple_ceos_v1/issues"
+  },
+  "homepage": "https://github.com/john-manack/apple_ceos_v1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-es6-template-engine": "^2.2.3"
+  }
+}
