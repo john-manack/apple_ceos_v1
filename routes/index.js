@@ -4,7 +4,14 @@ const express = require('express'),
     router = express.Router();
 
 router.get('/', (req, res) => {
-    res.send(`<h1>Root route!</h1>`)
+    res.render('template', {
+        locals: {
+            title: "Homepage",
+        },
+        partials: {
+            body: "partials/home"
+        }
+    });
 });
 
 module.exports = router;
